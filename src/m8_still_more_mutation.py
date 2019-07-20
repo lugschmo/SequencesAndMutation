@@ -77,6 +77,7 @@ def RETURN_delete_negatives(numbers):
         current = numbers[k]
         if current < 0:
             numbers2.remove(current)
+
     return numbers2
 
 
